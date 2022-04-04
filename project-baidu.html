@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>百度一下，你就知道</title>
+        <link rel="icon" sizes="any" mask href="//www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg">
+        <style type="text/css">
+            *{cursor: url(https://files-cdn.cnblogs.com/files/miluluyo/cursora.ico),auto;}
+            body,html{
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+            #home{
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                position: relative;
+            }
+            #bj{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                /*background-image: url("https://img.xjh.me/random_img.php?type=bg&ctype=acg&return=302");*/
+                background-image: url("https://cdn.seovx.com/d/?mom=302");
+                opacity:0.4;filter:alpha(opacity=20);
+                z-index: -1000;
+                position: fixed;
+                top: 0;
+                right: 0;
+                min-width: 1000px;
+                background-size: cover;
+            }
+            /*body {
+                    background-image:url(https://tuapi.eees.cc/api.php?category=dongman&type=302);
+                    background-repeat:repeat;
+                    background-attachment:fixed;
+                    background-position:50% 50%;
+                    background: opacity(0.2);
+            }*/
+            #topcol{
+                display: inline-block;
+                width: 100%;
+                height: 60px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font: 13px Arial,sans-serif;
+                margin:19px 24px 0px 0px;
+                text-align: center;
+                
+            }
+            span{
+                font: 13px Arial,sans-serif;
+            }
+            a:hover{
+                color: blue;
+            }
+            #left{
+                margin:19px 24px 0px 0px;
+                padding:0px 0px 0px 24px;
+                float: left;
+            }
+            #right{
+                margin:19px 24px 0px 0px;
+                float: right;
+            }
+            #img{
+                position: relative;
+                text-align: center;
+            }
+            #sousuo{
+                text-align: center;
+            }
+            #border{
+                display: inline-block;
+                width: 540px;
+                height: 39px;
+            }
+            input{
+                width: 540px;
+                height: 36px;
+                border: 1px solid #3385ff;
+            }
+            button{
+                position: relative;
+                border: none;
+                outline: none;
+                box-sizing: content-box;
+                color: #FFFFFF;
+                background: #3385ff;
+                width: 100px;
+                height: 35px;
+                border-bottom: 3px solid #3385ff;
+                font-weight: 500;
+                font-size: medium;
+            }
+            button:hover{
+                background: #1069f0;
+            }
+            #blank{
+                width: 960px;
+                margin: 0 auto;
+                padding-bottom: 60px;
+            }
+            #footer{
+                text-align: center;
+                font-family:'Lucida Sans';
+                color: gray;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 60px;
+                clear: both;
+            }
+            #footer a{
+                text-decoration: none;
+                color: gray;
+            }
+            #footer a:hover{
+                color: #1069f0;
+            }
+            .clear{clear: both;}
+        </style>
+    </head>
+    <body>
+        <div id="home">
+            <div id="bj"></div>
+            <div id="topcol">
+                <div id="left">
+                    <a href="http://news.baidu.com" target="_blank">新闻</a>
+                    <a href="https://www.hao123.com?src=from_pc_logon" target="_blank">hao123</a>
+                    <a href="http://map.baidu.com" target="_blank">地图</a>
+                    <a href="http://tieba.baidu.com/" target="_blank">贴吧</a>
+                    <a href="https://haokan.baidu.com/?sfrom=baidu-top" target="_blank">视频</a>
+                    <a href="http://image.baidu.com/" target="_blank"> 图片</a>
+                    <a href="https://pan.baidu.com?from=1026962h" target="_blank">网盘</a>
+                    <a href="http://www.baidu.com/more/">更多</a>
+                </div>
+                <div id="right">
+                    <a href="https://weather.com/zh-CN/weather/today/l/CHXX0008:1:CH" target="_blank">天气</a>
+                    <span>设置</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="img">
+                <img class="pic" width="270" height="129" src="//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="">
+            </div>
+            <br>
+            <div id="sousuo">
+                <from class="from">
+                    <div id="border">
+                        <input type="text">
+                    </div>
+                    <button onclick="alert('你百度到了空气！：) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                               -----来自tqqj')">百度一下</button>
+                </from>
+            </div>
+            <div id="blank"></div>
+            <div id="footer">
+                Copyright © 2022 Tqqj
+                <br>
+                <a href="https://beian.miit.gov.cn/#/Integrated/index">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鲁ICP备2022004892号-1</a>
+            </div>
+        </div>
+</body>
+</html>
